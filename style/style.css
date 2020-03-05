@@ -343,13 +343,14 @@ header {
 .skill h3 {
   font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .skill img {
   width: 100%;
-  -webkit-box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.651);
-          box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.651);
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 0px 22px #707070;
+          box-shadow: 0px 0px 22px #707070;
 }
 
 .skill a {
@@ -423,6 +424,9 @@ header {
 
 .portfolio-item img {
   width: 72%;
+  -webkit-box-shadow: 14px 2px 40px #424242;
+          box-shadow: 14px 2px 40px #424242;
+  border-radius: 12px;
 }
 
 .portfolio-img {
