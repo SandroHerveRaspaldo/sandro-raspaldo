@@ -435,25 +435,25 @@ header {
   width: 460.8px;
   height: 307.86px;
   border-radius: 38px;
-  background: #f5e8da;
-  -webkit-box-shadow: 19px 19px 38px #a29990, -19px -19px 38px #ffffff70;
-          box-shadow: 19px 19px 38px #a29990, -19px -19px 38px #ffffff70;
+  background: linear-gradient(_145deg, #F5EEE8, #ddd1c4);
+  -webkit-box-shadow: 6px 12px 24px #464646, -8px -6px 24px #ffffff;
+          box-shadow: 6px 12px 24px #464646, -8px -6px 24px #ffffff;
 }
 
 .portfolio-item .project img {
-  width: 89%;
-  height: 87%;
+  width: 90%;
+  height: 88%;
 }
 
 .portfolio-item .project:hover {
   background: #f5e8da;
-  -webkit-box-shadow: inset 20px 20px 60px #d0c5b9, inset -20px -20px 60px #fffffb;
-          box-shadow: inset 20px 20px 60px #d0c5b9, inset -20px -20px 60px #fffffb;
+  -webkit-box-shadow: inset 12px 12px 24px #a49b92, inset -12px -12px 24px #ffffff;
+          box-shadow: inset 12px 12px 24px #a49b92, inset -12px -12px 24px #ffffff;
 }
 
 .portfolio-item .project:hover img {
-  width: 88%;
-  height: 86%;
+  width: 89%;
+  height: 87%;
 }
 
 .portfolio-item img {
