@@ -378,11 +378,11 @@ header {
 
 .section-heading {
   margin-top: 1rem;
-  margin-left: 15rem;
+  margin-left: 14rem;
 }
 
 .section-heading img {
-  width: 45%;
+  width: 52%;
 }
 
 .skill-background {
@@ -420,9 +420,9 @@ header {
 }
 
 .skill h3 {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   font-weight: 700;
-  margin-bottom: 3rem;
+  margin-bottom: 1.4rem;
 }
 
 .skill a {
@@ -497,7 +497,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   width: 298.66px;
-  height: 467.25px;
+  height: 487.25px;
 }
 
 .designer-container img {
@@ -514,9 +514,9 @@ header {
 }
 
 .portfolio-heading {
-  margin-top: 5rem;
-  margin-left: 6rem;
-  margin-bottom: 8rem;
+  margin-top: 13rem;
+  margin-left: 8rem;
+  margin-bottom: 2rem;
 }
 
 .portfolio-heading img {
@@ -563,10 +563,28 @@ header {
           align-items: center;
   width: 460.8px;
   height: 307.86px;
+  overflow: hidden;
+  -webkit-transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
+  transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
+}
+
+.portfolio-item .project:hover {
+  -webkit-transform: translateX(-1.75rem);
+          transform: translateX(-1.75rem);
 }
 
 .portfolio-item img {
   width: 100%;
+  -webkit-transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
+  transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
+  -webkit-transform-origin: 90% center;
+          transform-origin: 90% center;
+}
+
+.portfolio-item img:hover {
+  opacity: 0.8;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .portfolio-img {

@@ -290,10 +290,10 @@ header
 
 .section-heading
     margin-top: 1rem
-    margin-left: 15rem
+    margin-left: 14rem
 
     img
-        width: 45%
+        width: 52%
 
 .skill-background
     width: 100%
@@ -321,9 +321,9 @@ header
     width: 70%
 
     h3
-        font-size: 2.2rem
+        font-size: 2.1rem
         font-weight: 700
-        margin-bottom: 3rem
+        margin-bottom: 1.4rem
 
     a   
         max-width: 100%
@@ -372,7 +372,7 @@ header
     justify-content: center
     align-items: center
     width: 298.66px
-    height: 467.25px
+    height: 487.25px
 
     img 
         width: 100%
@@ -387,9 +387,9 @@ header
 // portfolio
 
 .portfolio-heading
-    margin-top: 5rem
-    margin-left: 6rem
-    margin-bottom: 8rem
+    margin-top: 13rem
+    margin-left: 8rem
+    margin-bottom: 2rem
 
     img
         width: 80%
@@ -414,9 +414,22 @@ header
         align-items: center
         width: 460.8px
         height: 307.86px
+        overflow: hidden
+        transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1)
+
+    .project:hover
+        transform: translateX(-1.75rem)
+        
 
     img
         width: 100%
+        transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
+        transform-origin: 90% center
+
+    img:hover
+        opacity: 0.8
+        transform: scale(1.2)
+
 
 .portfolio-img
     display: flex
