@@ -3,7 +3,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'matrice', sans-serif;
 }
 
 html {
@@ -53,48 +52,6 @@ h2 {
 
 h3 {
   font-family: 'matrice', sans-serif;
-}
-
-@font-face {
-  src: url("../fonts-matrice/matrice_black-webfont.woff") format("woff"), url("../fonts-matrice/matrice_black-webfont.woff2") format("woff2");
-  font-family: 'matriceblack';
-  font-weight: bold;
-  font-style: black;
-}
-
-@font-face {
-  src: url("../fonts-matrice/matrice-font-kit/matrice_bold-webfont.woff") format("woff"), url("../fonts-matrice/matrice-font-kit/matrice_bold-webfont.woff2") format("woff2");
-  font-family: 'matricebold';
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  src: url("../fonts-matrice/matrice-font-kit/matrice_extrabold-webfont.woff") format("woff"), url("../fonts-matrice/matrice-font-kit/matrice_extrabold-webfont.woff2") format("woff2");
-  font-family: 'matriceextrabold';
-  font-weight: bold;
-  font-style: extrabold;
-}
-
-@font-face {
-  src: url("../fonts-matrice/matrice-font-kit/matrice_regular_italic-webfont.woff") format("woff"), url("../fonts-matrice/matrice-font-kit/matrice_regular_italic-webfont.woff2") format("woff2");
-  font-family: 'matriceregular_italic';
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  src: url("../fonts-matrice/matrice-font-kit/matrice_regular-webfont.woff") format("woff"), url("../fonts-matrice/matrice-font-kit/matrice_regular-webfont.woff2") format("woff2");
-  font-family: 'matriceregular';
-  font-weight: regular;
-  font-style: normal;
-}
-
-@font-face {
-  src: url("../fonts-matrice/matrice-font-kit/matrice_semibold-webfont.woff") format("woff"), url("../fonts-matrice/matrice-font-kit/matrice_semibold-webfont.woff2") format("woff2");
-  font-family: 'matricesemibold';
-  font-weight: semibold;
-  font-style: normal;
 }
 
 .loading-screen {
