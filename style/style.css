@@ -48,9 +48,45 @@ h3 {
 }
 
 @font-face {
-  font-family: 'matrice';
-  src: url("matrice.eot") format("embedded-opentype");
-  url: "matrice.otf" format("opentype");
+  font-family: 'matriceblack';
+  src: url("fonts/matrice-font-kit/matrice_black-webfont.woff2") format("woff2"), url("fonts/matrice-font-kit/matrice_black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'matricebold';
+  src: url("fonts/matrice-font-kit/matrice_bold-webfont.woff2") format("woff2"), url("fonts/matrice-font-kit/matrice_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'matriceextrabold';
+  src: url("fonts/matrice-font-kit/matrice_extrabold-webfont.woff2") format("woff2"), url("fonts/matrice-font-kit/matrice_extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'matriceregular_italic';
+  src: url("fonts/matrice-font-kit/matrice_regular_italic-webfont.woff2") format("woff2"), url("fonts/matrice-font-kit/matrice_regular_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'matriceregular';
+  src: url("fonts/matrice-font-kit/matrice_regular-webfont.woff2") format("woff2"), url("fonts/matrice-font-kit/matrice_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'matricesemibold';
+  src: url("fonts/matrice-font-kit/matrice_semibold-webfont.woff2") format("woff2"), url("fonts/matrice-font-kit/matrice_semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .loading-screen {
