@@ -3,7 +3,36 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'matrice', sans-serif;
+}
+
+@font-face {
+  font-family: 'matriceblack';
+  src: url("../fonts/matrice_black-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'matricebold';
+  src: url("../fonts/matrice_bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'matriceextrabold';
+  src: url("../fonts/matrice_extrabold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'matriceregular_italic';
+  src: url("../fonts/matrice_regular_italic-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'matriceregular';
+  src: url("../fonts/matrice_regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'matricesemibold';
+  src: url("../fonts/matrice_semibold-webfont.woff") format("woff");
 }
 
 html {
@@ -18,6 +47,7 @@ body {
   background-color: #f5e8da;
   background-size: cover;
   cursor: none;
+  font-family: 'matriceblack';
 }
 
 a {
