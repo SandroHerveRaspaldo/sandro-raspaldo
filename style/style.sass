@@ -3,12 +3,91 @@
     margin: 0
     padding: 0
     box-sizing: border-box
+    font-family: 'matrice', sans-serif
+
+
+// font face
+
+@font-face 
+    font-family: 'matriceblack'
+    src: url('./fonts/matrice_black-webfont.eot')
+    src: url('./fonts/matrice_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/matrice_black-webfont.woff2') format('woff2'),
+         url('./fonts/matrice_black-webfont.woff') format('woff'),
+         url('./fonts/matrice_black-webfont.ttf') format('truetype'),
+         url('./fonts/matrice_black-webfont.svg#matriceblack') format('svg')
+    font-display: swap
+    font-weight: normal
+    font-style: normal
+
+@font-face 
+    font-family: 'matricebold'
+    src: url('./fonts/matrice_bold-webfont.eot')
+    src: url('./fonts/matrice_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/matrice_bold-webfont.woff2') format('woff2'),
+         url('./fonts/matrice_bold-webfont.woff') format('woff'),
+         url('./fonts/matrice_bold-webfont.ttf') format('truetype'),
+         url('./fonts/matrice_bold-webfont.svg#matricebold') format('svg')
+    font-display: swap
+    font-weight: normal
+    font-style: normal
+
+@font-face 
+    font-family: 'matriceextrabold'
+    src: url('./fonts/matrice_extrabold-webfont.eot')
+    src: url('./fonts/matrice_extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/matrice_extrabold-webfont.woff2') format('woff2'),
+         url('./fonts/matrice_extrabold-webfont.woff') format('woff'),
+         url('./fonts/matrice_extrabold-webfont.ttf') format('truetype'),
+         url('./fonts/matrice_extrabold-webfont.svg#matriceextrabold') format('svg')
+    font-display: swap
+    font-weight: normal
+    font-style: normal
+
+
+@font-face 
+    font-family: 'matriceregular_italic'
+    src: url('./fonts/matrice_regular_italic-webfont.eot')
+    src: url('./fonts/matrice_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/matrice_regular_italic-webfont.woff2') format('woff2'),
+         url('./fonts/matrice_regular_italic-webfont.woff') format('woff'),
+         url('./fonts/matrice_regular_italic-webfont.ttf') format('truetype'),
+         url('./fonts/matrice_regular_italic-webfont.svg#matriceregular_italic') format('svg')
+    font-display: swap
+    font-weight: normal
+    font-style: normal
+
+
+@font-face 
+    font-family: 'matriceregular'
+    src: url('./fonts/matrice_regular-webfont.eot')
+    src: url('./fonts/matrice_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/matrice_regular-webfont.woff2') format('woff2'),
+         url('./fonts/matrice_regular-webfont.woff') format('woff'),
+         url('./fonts/matrice_regular-webfont.ttf') format('truetype'),
+         url('./fonts/matrice_regular-webfont.svg#matriceregular') format('svg')
+    font-display: swap
+    font-weight: normal
+    font-style: normal
+
+
+@font-face 
+    font-family: 'matricesemibold'
+    src: url('./fonts/matrice_semibold-webfont.eot')
+    src: url('./fonts/matrice_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/matrice_semibold-webfont.woff2') format('woff2'),
+         url('./fonts/matrice_semibold-webfont.woff') format('woff'),
+         url('./fonts/matrice_semibold-webfont.ttf') format('truetype'),
+         url('./fonts/matrice_semibold-webfont.svg#matricesemibold') format('svg')
+    font-display: swap
+    font-weight: normal
+    font-style: normal
+
 
 html
     font-size: 10px
     color: #3C3C3C
     cursor: none
-    font-family: 'matrice', sans-serif
 
 body
     width: 100%
@@ -16,7 +95,7 @@ body
     background-color: #f5e8da
     background-size: cover
     cursor: none
-    font-family: 'matrice', sans-serif
+    font-family: matrice
 
 a
     font-size: 1.6rem
@@ -24,27 +103,16 @@ a
     list-style: none
     color: #3C3C3C
     text-decoration: none
-    font-family: 'matrice', sans-serif
+    cursor: none
 
 ul
     list-style: none
-    font-family: 'matrice', sans-serif
-
 
 p
     font-size: 1.3rem
     font-weight: 350
     color: #3C3C3C
-    font-family: 'matrice', sans-serif
 
-h1
-    font-family: 'matrice', sans-serif
-
-h2
-    font-family: 'matrice', sans-serif
-
-h3
-    font-family: 'matrice', sans-serif
  
 // reusable 
 
@@ -257,8 +325,9 @@ header
         width: 75%
 
 .social-media
-    margin-top: 2rem
     width: 100%
+    align-items: center
+    margin-top: 2rem
 
     ul
         text-align: center
@@ -274,7 +343,8 @@ header
         float: left  
         width: 33%
         text-align: center
-        transition: color 300ms
+        transition: color 270ms
+        transition: font-size 270ms
         text-decoration: none !important
 
 .social-list
@@ -282,6 +352,8 @@ header
 
 .icon-link:hover
     color: #ff5100
+    font-size: 1.8rem
+    
 
 
 // services
@@ -483,9 +555,12 @@ header
         font-weight: 400
         text-decoration: underline
         color: #ff4800
+        transition: color 270ms
+        transition: font-size 270ms
 
     a:hover
         color: #000000
+        font-size: 2rem
 
 
 .details-left
@@ -503,9 +578,13 @@ header
         font-weight: 400
         text-decoration: underline
         color: #ff4800
+        transition: color 270ms
+        transition: font-size 270ms
 
     a:hover
         color: #000000
+        font-size: 2rem
+
 
 
 .portfolio-description

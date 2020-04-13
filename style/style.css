@@ -3,13 +3,13 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'matrice', sans-serif;
 }
 
 html {
   font-size: 10px;
   color: #3C3C3C;
   cursor: none;
-  font-family: 'matrice', sans-serif;
 }
 
 body {
@@ -18,7 +18,6 @@ body {
   background-color: #f5e8da;
   background-size: cover;
   cursor: none;
-  font-family: 'matrice', sans-serif;
 }
 
 a {
@@ -27,31 +26,17 @@ a {
   list-style: none;
   color: #3C3C3C;
   text-decoration: none;
-  font-family: 'matrice', sans-serif;
+  cursor: none;
 }
 
 ul {
   list-style: none;
-  font-family: 'matrice', sans-serif;
 }
 
 p {
   font-size: 1.3rem;
   font-weight: 350;
   color: #3C3C3C;
-  font-family: 'matrice', sans-serif;
-}
-
-h1 {
-  font-family: 'matrice', sans-serif;
-}
-
-h2 {
-  font-family: 'matrice', sans-serif;
-}
-
-h3 {
-  font-family: 'matrice', sans-serif;
 }
 
 .loading-screen {
@@ -344,8 +329,11 @@ header {
 }
 
 .social-media {
-  margin-top: 2rem;
   width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
 }
 
 .social-media ul {
@@ -363,8 +351,10 @@ header {
   float: left;
   width: 33%;
   text-align: center;
-  -webkit-transition: color 300ms;
-  transition: color 300ms;
+  -webkit-transition: color 270ms;
+  transition: color 270ms;
+  -webkit-transition: font-size 270ms;
+  transition: font-size 270ms;
   text-decoration: none !important;
 }
 
@@ -374,6 +364,7 @@ header {
 
 .icon-link:hover {
   color: #ff5100;
+  font-size: 1.8rem;
 }
 
 .section-heading {
@@ -681,10 +672,15 @@ header {
   font-weight: 400;
   text-decoration: underline;
   color: #ff4800;
+  -webkit-transition: color 270ms;
+  transition: color 270ms;
+  -webkit-transition: font-size 270ms;
+  transition: font-size 270ms;
 }
 
 .details a:hover {
   color: #000000;
+  font-size: 2rem;
 }
 
 .details-left {
@@ -709,10 +705,15 @@ header {
   font-weight: 400;
   text-decoration: underline;
   color: #ff4800;
+  -webkit-transition: color 270ms;
+  transition: color 270ms;
+  -webkit-transition: font-size 270ms;
+  transition: font-size 270ms;
 }
 
 .details-left a:hover {
   color: #000000;
+  font-size: 2rem;
 }
 
 .portfolio-description {
